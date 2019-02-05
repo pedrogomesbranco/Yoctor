@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18652E951F1506DF003A4331 /* TodayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18652E941F1506DF003A4331 /* TodayTableViewCell.swift */; };
+		18652E971F1506EF003A4331 /* ScheduledTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18652E961F1506EF003A4331 /* ScheduledTableViewCell.swift */; };
+		246CEA5D1F4332950034D623 /* PhotoCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246CEA5C1F4332950034D623 /* PhotoCellTableViewCell.swift */; };
+		3D06D35C1F72C37800DB1B2C /* CustomDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06D35B1F72C37800DB1B2C /* CustomDate.swift */; };
+		3D121D221F15CB2E00191277 /* Dosis-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D121D1A1F15CACA00191277 /* Dosis-Bold.otf */; };
+		3D121D231F15CB3200191277 /* Dosis-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D121D1B1F15CACA00191277 /* Dosis-ExtraBold.otf */; };
+		3D121D241F15CB3600191277 /* Dosis-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D121D1C1F15CACA00191277 /* Dosis-ExtraLight.otf */; };
+		3D121D251F15CB3900191277 /* Dosis-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D121D1D1F15CACA00191277 /* Dosis-Light.otf */; };
+		3D121D261F15CB3C00191277 /* Dosis-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D121D1E1F15CACA00191277 /* Dosis-Medium.otf */; };
+		3D121D271F15CB3F00191277 /* Dosis-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D121D1F1F15CACA00191277 /* Dosis-Regular.otf */; };
+		3D121D281F15CB4200191277 /* Dosis-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D121D201F15CACA00191277 /* Dosis-SemiBold.otf */; };
+		3D121D2A1F15EA7E00191277 /* SecondRegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D121D291F15EA7E00191277 /* SecondRegisterPresenter.swift */; };
+		3D1D301A1FC0C96E00B6DBA0 /* AllDoctorsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D30191FC0C96E00B6DBA0 /* AllDoctorsCell.swift */; };
+		3D1D301C1FC0E56D00B6DBA0 /* NextAppointmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D301B1FC0E56D00B6DBA0 /* NextAppointmentCell.swift */; };
+		3D8619441FC0BEE7004FCE5D /* NewAppointmentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8619431FC0BEE7004FCE5D /* NewAppointmentPresenter.swift */; };
+		3D8D7AA71F269099003B5450 /* AgendaAppointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D7AA61F269099003B5450 /* AgendaAppointment.swift */; };
+		3DAB45CC1FC1D257001A9BE0 /* TimeIntervalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB45CB1FC1D257001A9BE0 /* TimeIntervalCell.swift */; };
+		3DB18F2D1F13F2E4000C7E28 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB18F2C1F13F2E4000C7E28 /* LoginPresenter.swift */; };
+		3DB18F2F1F140BFF000C7E28 /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB18F2E1F140BFF000C7E28 /* RegisterPresenter.swift */; };
+		3DC65ACC1F13D9480048438C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC65ACB1F13D9480048438C /* AppDelegate.swift */; };
+		3DC65ACE1F13D9480048438C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC65ACD1F13D9480048438C /* MainViewController.swift */; };
+		3DC65AD11F13D9480048438C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC65ACF1F13D9480048438C /* Main.storyboard */; };
+		3DC65AD31F13D9480048438C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC65AD21F13D9480048438C /* Assets.xcassets */; };
+		3DC65AD61F13D9480048438C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC65AD41F13D9480048438C /* LaunchScreen.storyboard */; };
+		3DC65AE51F13DDD00048438C /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC65AE11F13DDD00048438C /* DAO.swift */; };
+		3DC65AE61F13DDD00048438C /* DAO_Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC65AE21F13DDD00048438C /* DAO_Person.swift */; };
+		3DC65AE71F13DDD00048438C /* DAO_Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC65AE31F13DDD00048438C /* DAO_Appointment.swift */; };
+		3DC65AEB1F13DDFE0048438C /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC65AE91F13DDFE0048438C /* Login.swift */; };
+		3DC65AF21F13DE280048438C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC65AEE1F13DE280048438C /* Person.swift */; };
+		3DC65AF31F13DE280048438C /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC65AEF1F13DE280048438C /* Patient.swift */; };
+		3DC65AF41F13DE280048438C /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC65AF01F13DE280048438C /* Doctor.swift */; };
+		3DC65AF51F13DE280048438C /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC65AF11F13DE280048438C /* Appointment.swift */; };
+		3DD633591FBB5533000FFF39 /* DoctorCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD633581FBB5533000FFF39 /* DoctorCollectionCell.swift */; };
+		3DD6335B1FBB6208000FFF39 /* AppointmentRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD6335A1FBB6208000FFF39 /* AppointmentRequest.swift */; };
+		3DE838D21F1D0CE300710CD1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DE838D11F1D0CE300710CD1 /* GoogleService-Info.plist */; };
+		3DF1CCE71FC6FF0C00A9B406 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF1CCE61FC6FF0C00A9B406 /* RequestManager.swift */; };
+		40066A281F421B000075219E /* DoctorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40066A271F421B000075219E /* DoctorManager.swift */; };
+		40690D591F72EF8000F81638 /* ClinicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40690D581F72EF8000F81638 /* ClinicManager.swift */; };
+		409938331F38EBBA00963A65 /* Clinic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409938321F38EBBA00963A65 /* Clinic.swift */; };
+		409938351F38EFC800963A65 /* DAO_Clinic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409938341F38EFC800963A65 /* DAO_Clinic.swift */; };
+		40EBA95F1F4FC01E0012A7A2 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EBA95E1F4FC01E0012A7A2 /* ActivityIndicator.swift */; };
+		E10CB11F07BFC1060892B9DA /* Pods_Yoctor_Patient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB2C9A816F2549A82AC0BD9 /* Pods_Yoctor_Patient.framework */; };
+		EB552F301F15DA0F002F1293 /* PatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB552F2F1F15DA0F002F1293 /* PatientViewController.swift */; };
+		EB552F321F15DA22002F1293 /* EditPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB552F311F15DA22002F1293 /* EditPatientViewController.swift */; };
+		EB552F341F15DA2C002F1293 /* DoctorsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB552F331F15DA2C002F1293 /* DoctorsPresenter.swift */; };
+		EB552F361F15DAAC002F1293 /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB552F351F15DAAC002F1293 /* InfoTableViewCell.swift */; };
+		EB552F381F15DAB7002F1293 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB552F371F15DAB7002F1293 /* SettingsTableViewCell.swift */; };
+		EB552F3A1F15DAC6002F1293 /* ButtonsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB552F391F15DAC6002F1293 /* ButtonsTableViewCell.swift */; };
+		EB552F3C1F15DFAD002F1293 /* EditTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB552F3B1F15DFAD002F1293 /* EditTableViewCell.swift */; };
+		EB552F3E1F15E5AD002F1293 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB552F3D1F15E5AD002F1293 /* NavigationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18652E941F1506DF003A4331 /* TodayTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayTableViewCell.swift; sourceTree = "<group>"; };
+		18652E961F1506EF003A4331 /* ScheduledTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduledTableViewCell.swift; sourceTree = "<group>"; };
+		246CEA5C1F4332950034D623 /* PhotoCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCellTableViewCell.swift; sourceTree = "<group>"; };
+		2C42BDF2D134ABE5D0066399 /* Pods-Yoctor_Patient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yoctor_Patient.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yoctor_Patient/Pods-Yoctor_Patient.release.xcconfig"; sourceTree = "<group>"; };
+		3D06D35B1F72C37800DB1B2C /* CustomDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDate.swift; sourceTree = "<group>"; };
+		3D121D1A1F15CACA00191277 /* Dosis-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Bold.otf"; sourceTree = "<group>"; };
+		3D121D1B1F15CACA00191277 /* Dosis-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-ExtraBold.otf"; sourceTree = "<group>"; };
+		3D121D1C1F15CACA00191277 /* Dosis-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-ExtraLight.otf"; sourceTree = "<group>"; };
+		3D121D1D1F15CACA00191277 /* Dosis-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Light.otf"; sourceTree = "<group>"; };
+		3D121D1E1F15CACA00191277 /* Dosis-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Medium.otf"; sourceTree = "<group>"; };
+		3D121D1F1F15CACA00191277 /* Dosis-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Regular.otf"; sourceTree = "<group>"; };
+		3D121D201F15CACA00191277 /* Dosis-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-SemiBold.otf"; sourceTree = "<group>"; };
+		3D121D291F15EA7E00191277 /* SecondRegisterPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondRegisterPresenter.swift; sourceTree = "<group>"; };
+		3D1D30191FC0C96E00B6DBA0 /* AllDoctorsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDoctorsCell.swift; sourceTree = "<group>"; };
+		3D1D301B1FC0E56D00B6DBA0 /* NextAppointmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextAppointmentCell.swift; sourceTree = "<group>"; };
+		3D8619431FC0BEE7004FCE5D /* NewAppointmentPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAppointmentPresenter.swift; sourceTree = "<group>"; };
+		3D8D7AA61F269099003B5450 /* AgendaAppointment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgendaAppointment.swift; sourceTree = "<group>"; };
+		3DAB45CB1FC1D257001A9BE0 /* TimeIntervalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalCell.swift; sourceTree = "<group>"; };
+		3DB18F2C1F13F2E4000C7E28 /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		3DB18F2E1F140BFF000C7E28 /* RegisterPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
+		3DC65AC81F13D9480048438C /* Yoctor_Patient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yoctor_Patient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC65ACB1F13D9480048438C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DC65ACD1F13D9480048438C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3DC65AD01F13D9480048438C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DC65AD21F13D9480048438C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DC65AD51F13D9480048438C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DC65AD71F13D9480048438C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC65AE11F13DDD00048438C /* DAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
+		3DC65AE21F13DDD00048438C /* DAO_Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAO_Person.swift; sourceTree = "<group>"; };
+		3DC65AE31F13DDD00048438C /* DAO_Appointment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAO_Appointment.swift; sourceTree = "<group>"; };
+		3DC65AE91F13DDFE0048438C /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		3DC65AEE1F13DE280048438C /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		3DC65AEF1F13DE280048438C /* Patient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		3DC65AF01F13DE280048438C /* Doctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		3DC65AF11F13DE280048438C /* Appointment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		3DD633581FBB5533000FFF39 /* DoctorCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCollectionCell.swift; sourceTree = "<group>"; };
+		3DD6335A1FBB6208000FFF39 /* AppointmentRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentRequest.swift; sourceTree = "<group>"; };
+		3DE838D11F1D0CE300710CD1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3DF1CCE61FC6FF0C00A9B406 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		40066A271F421B000075219E /* DoctorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorManager.swift; sourceTree = "<group>"; };
+		40690D581F72EF8000F81638 /* ClinicManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClinicManager.swift; sourceTree = "<group>"; };
+		409938321F38EBBA00963A65 /* Clinic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clinic.swift; sourceTree = "<group>"; };
+		409938341F38EFC800963A65 /* DAO_Clinic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAO_Clinic.swift; sourceTree = "<group>"; };
+		40EBA95E1F4FC01E0012A7A2 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		5CB2C9A816F2549A82AC0BD9 /* Pods_Yoctor_Patient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yoctor_Patient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F096C1BB884DD1B485FA30 /* Pods-Yoctor_Patient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yoctor_Patient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yoctor_Patient/Pods-Yoctor_Patient.debug.xcconfig"; sourceTree = "<group>"; };
+		EB552F2F1F15DA0F002F1293 /* PatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientViewController.swift; sourceTree = "<group>"; };
+		EB552F311F15DA22002F1293 /* EditPatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPatientViewController.swift; sourceTree = "<group>"; };
+		EB552F331F15DA2C002F1293 /* DoctorsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorsPresenter.swift; sourceTree = "<group>"; };
+		EB552F351F15DAAC002F1293 /* InfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		EB552F371F15DAB7002F1293 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		EB552F391F15DAC6002F1293 /* ButtonsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsTableViewCell.swift; sourceTree = "<group>"; };
+		EB552F3B1F15DFAD002F1293 /* EditTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTableViewCell.swift; sourceTree = "<group>"; };
+		EB552F3D1F15E5AD002F1293 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DC65AC51F13D9480048438C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10CB11F07BFC1060892B9DA /* Pods_Yoctor_Patient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38D50EAA4C2DC9C9045A5F99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CB2C9A816F2549A82AC0BD9 /* Pods_Yoctor_Patient.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D121D191F15CAB100191277 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3DC65AD21F13D9480048438C /* Assets.xcassets */,
+				3D121D211F15CAD100191277 /* Dosis Font */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3D121D211F15CAD100191277 /* Dosis Font */ = {
+			isa = PBXGroup;
+			children = (
+				3D121D1A1F15CACA00191277 /* Dosis-Bold.otf */,
+				3D121D1B1F15CACA00191277 /* Dosis-ExtraBold.otf */,
+				3D121D1C1F15CACA00191277 /* Dosis-ExtraLight.otf */,
+				3D121D1D1F15CACA00191277 /* Dosis-Light.otf */,
+				3D121D1E1F15CACA00191277 /* Dosis-Medium.otf */,
+				3D121D1F1F15CACA00191277 /* Dosis-Regular.otf */,
+				3D121D201F15CACA00191277 /* Dosis-SemiBold.otf */,
+			);
+			name = "Dosis Font";
+			sourceTree = "<group>";
+		};
+		3DC65ABF1F13D9480048438C = {
+			isa = PBXGroup;
+			children = (
+				3DC65ACA1F13D9480048438C /* Yoctor_Patient */,
+				3DC65AC91F13D9480048438C /* Products */,
+				EC251F46743FEE3849BBCD4B /* Pods */,
+				38D50EAA4C2DC9C9045A5F99 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3DC65AC91F13D9480048438C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DC65AC81F13D9480048438C /* Yoctor_Patient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DC65ACA1F13D9480048438C /* Yoctor_Patient */ = {
+			isa = PBXGroup;
+			children = (
+				3DE838D11F1D0CE300710CD1 /* GoogleService-Info.plist */,
+				3DC65AD71F13D9480048438C /* Info.plist */,
+				3DC65ADF1F13DDC40048438C /* DAO */,
+				3DC65AE81F13DDDD0048438C /* Logic Manager */,
+				3DC65AED1F13DE180048438C /* Model */,
+				3DC65AF71F13DEF60048438C /* Presenter */,
+				3D121D191F15CAB100191277 /* Resources */,
+				3DC65AF61F13DEB10048438C /* View */,
+			);
+			path = Yoctor_Patient;
+			sourceTree = "<group>";
+		};
+		3DC65ADF1F13DDC40048438C /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				3DC65AE31F13DDD00048438C /* DAO_Appointment.swift */,
+				409938341F38EFC800963A65 /* DAO_Clinic.swift */,
+				3DC65AE21F13DDD00048438C /* DAO_Person.swift */,
+				3DC65AE11F13DDD00048438C /* DAO.swift */,
+			);
+			name = DAO;
+			sourceTree = "<group>";
+		};
+		3DC65AE81F13DDDD0048438C /* Logic Manager */ = {
+			isa = PBXGroup;
+			children = (
+				3D8D7AA61F269099003B5450 /* AgendaAppointment.swift */,
+				3DC65ACB1F13D9480048438C /* AppDelegate.swift */,
+				40066A271F421B000075219E /* DoctorManager.swift */,
+				3DC65AE91F13DDFE0048438C /* Login.swift */,
+				40690D581F72EF8000F81638 /* ClinicManager.swift */,
+				3DF1CCE61FC6FF0C00A9B406 /* RequestManager.swift */,
+			);
+			name = "Logic Manager";
+			sourceTree = "<group>";
+		};
+		3DC65AED1F13DE180048438C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3DC65AF11F13DE280048438C /* Appointment.swift */,
+				3DD6335A1FBB6208000FFF39 /* AppointmentRequest.swift */,
+				409938321F38EBBA00963A65 /* Clinic.swift */,
+				3D06D35B1F72C37800DB1B2C /* CustomDate.swift */,
+				3DC65AF01F13DE280048438C /* Doctor.swift */,
+				3DC65AEF1F13DE280048438C /* Patient.swift */,
+				3DC65AEE1F13DE280048438C /* Person.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3DC65AF61F13DEB10048438C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40EBA95E1F4FC01E0012A7A2 /* ActivityIndicator.swift */,
+				3D1D30191FC0C96E00B6DBA0 /* AllDoctorsCell.swift */,
+				EB552F391F15DAC6002F1293 /* ButtonsTableViewCell.swift */,
+				3DD633581FBB5533000FFF39 /* DoctorCollectionCell.swift */,
+				EB552F3B1F15DFAD002F1293 /* EditTableViewCell.swift */,
+				EB552F351F15DAAC002F1293 /* InfoTableViewCell.swift */,
+				3D1D301B1FC0E56D00B6DBA0 /* NextAppointmentCell.swift */,
+				246CEA5C1F4332950034D623 /* PhotoCellTableViewCell.swift */,
+				18652E961F1506EF003A4331 /* ScheduledTableViewCell.swift */,
+				EB552F371F15DAB7002F1293 /* SettingsTableViewCell.swift */,
+				3DAB45CB1FC1D257001A9BE0 /* TimeIntervalCell.swift */,
+				18652E941F1506DF003A4331 /* TodayTableViewCell.swift */,
+				3DC65AD41F13D9480048438C /* LaunchScreen.storyboard */,
+				3DC65ACF1F13D9480048438C /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3DC65AF71F13DEF60048438C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EB552F331F15DA2C002F1293 /* DoctorsPresenter.swift */,
+				EB552F311F15DA22002F1293 /* EditPatientViewController.swift */,
+				3DB18F2C1F13F2E4000C7E28 /* LoginPresenter.swift */,
+				3DC65ACD1F13D9480048438C /* MainViewController.swift */,
+				EB552F3D1F15E5AD002F1293 /* NavigationController.swift */,
+				EB552F2F1F15DA0F002F1293 /* PatientViewController.swift */,
+				3DB18F2E1F140BFF000C7E28 /* RegisterPresenter.swift */,
+				3D121D291F15EA7E00191277 /* SecondRegisterPresenter.swift */,
+				3D8619431FC0BEE7004FCE5D /* NewAppointmentPresenter.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		EC251F46743FEE3849BBCD4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86F096C1BB884DD1B485FA30 /* Pods-Yoctor_Patient.debug.xcconfig */,
+				2C42BDF2D134ABE5D0066399 /* Pods-Yoctor_Patient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DC65AC71F13D9480048438C /* Yoctor_Patient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC65ADA1F13D9480048438C /* Build configuration list for PBXNativeTarget "Yoctor_Patient" */;
+			buildPhases = (
+				6F5F301F72C83CDB7EE712B4 /* [CP] Check Pods Manifest.lock */,
+				3DC65AC41F13D9480048438C /* Sources */,
+				3DC65AC51F13D9480048438C /* Frameworks */,
+				3DC65AC61F13D9480048438C /* Resources */,
+				A5F9C04D4C7C95BC393AD9F6 /* [CP] Embed Pods Frameworks */,
+				A04176CAC424957A0171EFF7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yoctor_Patient;
+			productName = Yoctor_Patient;
+			productReference = 3DC65AC81F13D9480048438C /* Yoctor_Patient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DC65AC01F13D9480048438C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Yoctor;
+				TargetAttributes = {
+					3DC65AC71F13D9480048438C = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = Y93WP7899G;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3DC65AC31F13D9480048438C /* Build configuration list for PBXProject "Yoctor_Patient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DC65ABF1F13D9480048438C;
+			productRefGroup = 3DC65AC91F13D9480048438C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DC65AC71F13D9480048438C /* Yoctor_Patient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DC65AC61F13D9480048438C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC65AD61F13D9480048438C /* LaunchScreen.storyboard in Resources */,
+				3D121D271F15CB3F00191277 /* Dosis-Regular.otf in Resources */,
+				3D121D281F15CB4200191277 /* Dosis-SemiBold.otf in Resources */,
+				3D121D241F15CB3600191277 /* Dosis-ExtraLight.otf in Resources */,
+				3DC65AD31F13D9480048438C /* Assets.xcassets in Resources */,
+				3D121D261F15CB3C00191277 /* Dosis-Medium.otf in Resources */,
+				3DC65AD11F13D9480048438C /* Main.storyboard in Resources */,
+				3D121D251F15CB3900191277 /* Dosis-Light.otf in Resources */,
+				3DE838D21F1D0CE300710CD1 /* GoogleService-Info.plist in Resources */,
+				3D121D231F15CB3200191277 /* Dosis-ExtraBold.otf in Resources */,
+				3D121D221F15CB2E00191277 /* Dosis-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F5F301F72C83CDB7EE712B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yoctor_Patient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A04176CAC424957A0171EFF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yoctor_Patient/Pods-Yoctor_Patient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5F9C04D4C7C95BC393AD9F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Yoctor_Patient/Pods-Yoctor_Patient-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yoctor_Patient/Pods-Yoctor_Patient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DC65AC41F13D9480048438C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC65AF41F13DE280048438C /* Doctor.swift in Sources */,
+				3D8D7AA71F269099003B5450 /* AgendaAppointment.swift in Sources */,
+				246CEA5D1F4332950034D623 /* PhotoCellTableViewCell.swift in Sources */,
+				3DC65AEB1F13DDFE0048438C /* Login.swift in Sources */,
+				3DD633591FBB5533000FFF39 /* DoctorCollectionCell.swift in Sources */,
+				EB552F3A1F15DAC6002F1293 /* ButtonsTableViewCell.swift in Sources */,
+				EB552F3C1F15DFAD002F1293 /* EditTableViewCell.swift in Sources */,
+				3DAB45CC1FC1D257001A9BE0 /* TimeIntervalCell.swift in Sources */,
+				3DD6335B1FBB6208000FFF39 /* AppointmentRequest.swift in Sources */,
+				3D121D2A1F15EA7E00191277 /* SecondRegisterPresenter.swift in Sources */,
+				18652E951F1506DF003A4331 /* TodayTableViewCell.swift in Sources */,
+				3DC65AE51F13DDD00048438C /* DAO.swift in Sources */,
+				EB552F3E1F15E5AD002F1293 /* NavigationController.swift in Sources */,
+				40066A281F421B000075219E /* DoctorManager.swift in Sources */,
+				3DF1CCE71FC6FF0C00A9B406 /* RequestManager.swift in Sources */,
+				3DC65AF51F13DE280048438C /* Appointment.swift in Sources */,
+				EB552F381F15DAB7002F1293 /* SettingsTableViewCell.swift in Sources */,
+				3DC65ACE1F13D9480048438C /* MainViewController.swift in Sources */,
+				EB552F301F15DA0F002F1293 /* PatientViewController.swift in Sources */,
+				3DC65AE61F13DDD00048438C /* DAO_Person.swift in Sources */,
+				3DB18F2D1F13F2E4000C7E28 /* LoginPresenter.swift in Sources */,
+				409938351F38EFC800963A65 /* DAO_Clinic.swift in Sources */,
+				EB552F341F15DA2C002F1293 /* DoctorsPresenter.swift in Sources */,
+				3DB18F2F1F140BFF000C7E28 /* RegisterPresenter.swift in Sources */,
+				3D8619441FC0BEE7004FCE5D /* NewAppointmentPresenter.swift in Sources */,
+				18652E971F1506EF003A4331 /* ScheduledTableViewCell.swift in Sources */,
+				40690D591F72EF8000F81638 /* ClinicManager.swift in Sources */,
+				3DC65AF21F13DE280048438C /* Person.swift in Sources */,
+				409938331F38EBBA00963A65 /* Clinic.swift in Sources */,
+				3D1D301A1FC0C96E00B6DBA0 /* AllDoctorsCell.swift in Sources */,
+				3DC65AE71F13DDD00048438C /* DAO_Appointment.swift in Sources */,
+				3DC65ACC1F13D9480048438C /* AppDelegate.swift in Sources */,
+				40EBA95F1F4FC01E0012A7A2 /* ActivityIndicator.swift in Sources */,
+				3D1D301C1FC0E56D00B6DBA0 /* NextAppointmentCell.swift in Sources */,
+				EB552F361F15DAAC002F1293 /* InfoTableViewCell.swift in Sources */,
+				3D06D35C1F72C37800DB1B2C /* CustomDate.swift in Sources */,
+				3DC65AF31F13DE280048438C /* Patient.swift in Sources */,
+				EB552F321F15DA22002F1293 /* EditPatientViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3DC65ACF1F13D9480048438C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DC65AD01F13D9480048438C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DC65AD41F13D9480048438C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DC65AD51F13D9480048438C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DC65AD81F13D9480048438C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DC65AD91F13D9480048438C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DC65ADB1F13D9480048438C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86F096C1BB884DD1B485FA30 /* Pods-Yoctor_Patient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y93WP7899G;
+				INFOPLIST_FILE = Yoctor_Patient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YoctorTeam.Yoctor-Patient";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3DC65ADC1F13D9480048438C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C42BDF2D134ABE5D0066399 /* Pods-Yoctor_Patient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y93WP7899G;
+				INFOPLIST_FILE = Yoctor_Patient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YoctorTeam.Yoctor-Patient";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DC65AC31F13D9480048438C /* Build configuration list for PBXProject "Yoctor_Patient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC65AD81F13D9480048438C /* Debug */,
+				3DC65AD91F13D9480048438C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC65ADA1F13D9480048438C /* Build configuration list for PBXNativeTarget "Yoctor_Patient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC65ADB1F13D9480048438C /* Debug */,
+				3DC65ADC1F13D9480048438C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DC65AC01F13D9480048438C /* Project object */;
+}
